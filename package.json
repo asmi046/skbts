@@ -4,7 +4,7 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "clone_rep": "ssh aleksz79_all@aleksz79.beget.tech \"git clone https://github.com/asmi046/prof_medica center-construct.ru/public_html\"",
+        "clone_rep": "ssh aleksz79_all@aleksz79.beget.tech \"git clone https://github.com/asmi046/skbts center-construct.ru/public_html\"",
         "composer_remove": "ssh aleksz79_all@aleksz79.beget.tech \"cd center-construct.ru/public_html && php8.2 composer.phar dumpauto\"",
         "composer_install": "ssh aleksz79_all@aleksz79.beget.tech \"cd center-construct.ru/public_html && php8.2 composer.phar install\"",
         "composer_update": "ssh aleksz79_all@aleksz79.beget.tech \"cd center-construct.ru/public_html && php8.2 composer.phar update\"",
