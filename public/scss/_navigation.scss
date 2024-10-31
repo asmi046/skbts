@@ -1,0 +1,16 @@
+nav {
+    margin: auto;
+    ul {
+        display: flex;
+        li {
+            margin: auto 10px;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+}

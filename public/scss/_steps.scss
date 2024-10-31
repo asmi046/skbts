@@ -1,0 +1,60 @@
+.steps_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+
+    margin-top: 40px;
+    .step {
+        width: 28%;
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        border-radius: $border_rad;
+        box-shadow: $box_shadow;
+        min-height: 50px;
+
+        .index {
+            font-weight: bold;
+            width:41px;
+            height: 41px;
+            background-color: $sub_color;
+            border-radius: $border_rad;
+            color:$main_color;
+            line-height: 41px;
+            font-size: 28px;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        .text {
+            flex:1;
+            font-size: 18px;
+            line-height: 1.2;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .steps_wrapper {
+        justify-content: space-between;
+        .step {
+            width: 27%;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .steps_wrapper {
+        .step {
+            width: 43%;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .steps_wrapper {
+        .step {
+            width: 100%;
+        }
+    }
+}
