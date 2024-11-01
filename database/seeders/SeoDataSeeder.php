@@ -21,6 +21,12 @@ class SeoDataSeeder extends Seeder
                 'seo_description' => "Переоборудование всех видов автотранспорта в Курске",
                 'page_title' => "",
             ],
+            [
+                'url' => "thencs_consult",
+                'seo_title' => "Благодарим за обращение, мы свяжемся с Вами в ближайшее время",
+                'seo_description' => "Благодарим за обращение, мы свяжемся с Вами в ближайшее время",
+                'page_title' => "",
+            ],
 
         ];
 

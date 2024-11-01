@@ -26,7 +26,7 @@
                             <li>Консультацию эксперта: какие документы нужны</li>
                             <li>Запись авто на испытания в лабораторию</li>
                         </ul>
-                        <a href="" class="button">Оставить заявку</a>
+                        <a href="#showModal" class="button">Оставить заявку</a>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
     </div>
 </section>
 
-<section class="adv_section">
+<section id="adv" class="adv_section">
     <div class="container">
         <div class="adv_wrapper">
             <x-adv-blk icon="adv_dogovor" title="Работаем по <br>договору"></x-adv-blk>

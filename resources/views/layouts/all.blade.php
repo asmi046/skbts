@@ -40,12 +40,18 @@
     <!-- /Yandex.Metrika counter -->
 </head>
 <body>
+    <div class="modal_win" id="global_app">
+        <modal-window rout="/send_consult" redirect="/thencs" hesh="showModal" title="Помощь специалиста" subtitle="Мы свяжемся с Вами в течении 15 минут"></modal-window>
+    </div>
+
+    <x-menues.side-menu></x-menues.side-menu>
+
     @include("allicon")
     <main id="main">
         <header id="top_header">
             <div class="container">
                 <a class="logo" href="{{ route('home')}}">
-                    <img src="{{asset('img/logo.svg')}}" alt="{{seo_data()->seo_data->seo_title;}}">
+                    <img src="{{asset('img/logo.svg')}}" alt="Переоборудование Авто">
                 </a>
                 <nav>
                     <ul>
@@ -54,19 +60,19 @@
                 </nav>
 
                 <div class="header_contacts">
-                    <x-icon-a href="#" ancor="+7(999) 999-99-99" icon="phone_icon"></x-icon-a>
-                    <a class="button" href="#">Заказать звонок</a>
+                    <x-icon-a href="tel:+7{{ phone_format(config('contacts.phone')) }}" ancor="{{config('contacts.phone')}}" icon="phone_icon"></x-icon-a>
+                    <a class="button" href="#showModal">Заказать звонок</a>
                 </div>
 
             </div>
         </header>
 
         @yield('main')
-        <footer>
+        <footer id="footer">
             <div class="container">
                 <div class="coll">
                     <a class="logo" href="{{ route('home')}}">
-                        <img src="{{asset('img/logo_white.svg')}}" alt="{{seo_data()->seo_data->seo_title;}}">
+                        <img src="{{asset('img/logo_white.svg')}}" alt="Переоборудование Авто">
                     </a>
                     <p class="copyright">
                         АвтоПрофи Сервис 2024©
@@ -82,13 +88,13 @@
                 </div>
 
                 <div class="coll contacts_coll">
-                    <x-icon-a href="#" ancor="+7(999) 999-99-99" icon="phone_icon"></x-icon-a>
+                    <x-icon-a href="tel:+7{{ phone_format(config('contacts.phone')) }}" ancor="{{config('contacts.phone')}}" icon="phone_icon"></x-icon-a>
                     <div class="adr_mail">
-                        <p class="adres">г. Курск, Гунатовская 32</p>
-                        <a href="mailto:89102133353@mail.ru">89102133353@mail.ru</a>
+                        <p class="adres">{{config('contacts.adress')}}</p>
+                        <a href="mailto:89102133353@mail.ru">{{config('contacts.email')}}</a>
                     </div>
 
-                    <a href="#" class="button">Заказать звонок</a>
+                    <a href="#showModal" class="button">Заказать звонок</a>
                 </div>
             </div>
         </footer>

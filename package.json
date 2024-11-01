@@ -43,6 +43,8 @@
         "vite": "^5.0"
     },
     "dependencies": {
-        "@vitejs/plugin-vue": "^5.1.4"
+        "@vitejs/plugin-vue": "^5.1.4",
+        "v-slim-mask": "^1.0.24",
+        "vue-axios": "^3.5.2"
     }
 }

@@ -5,6 +5,7 @@
 @import "text-styles";
 @import "pagination";
 @import "standart";
+@import "burger-icon";
 @import "form/all-form";
 @import "elements/all-elements";
 
@@ -58,6 +59,16 @@ h1 {
     text-align: center;
 }
 
+
+.thencs_section {
+    text-align: center;
+    height: 80vh;
+    .emoji {
+        font-size: 100px;
+        margin-top: 20px;
+    }
+}
+
 @media (max-width: 1440px) {
     .container {
         width: 96%;
@@ -72,6 +83,7 @@ h1 {
     }
 }
 
+
 @import "header";
 @import "navigation";
 @import "icon-a";
@@ -80,6 +92,7 @@ h1 {
 @import "steps";
 @import "service-list";
 @import "footer";
+@import "menues";
 
 // Схема с сайдбаром
 // @import "sidebar-schem";

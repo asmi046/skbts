@@ -8,7 +8,7 @@
     <div class="text">
         <h3>{!! $title !!}</h3>
         <p class="cats">{{ $cats }}</p>
-        <a href="#" class="button">Заказать</a>
+        <a href="#showModal" class="button">Заказать</a>
     </div>
     <div class="img">
         <img src="{{ $img }}" alt="{{ $title }}">

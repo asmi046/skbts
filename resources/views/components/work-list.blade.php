@@ -9,6 +9,6 @@
         <div class="services">
             {!! $item->services !!}
         </div>
-        <a href="#" class="button">Заказать звонок</a>
+        <a href="#showModal" class="button">Заказать звонок</a>
     </div>
 </div>
