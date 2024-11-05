@@ -16,14 +16,14 @@
             <div class="text">
                 <div class="wrap">
                     <h1>
-                        Регистрация любого <br>переоборудования автомобиляв <br><span class="text_marker">ГИБДД</span>, получение <span class="text_marker">СБКТС</span>, <span class="text_marker">ЭПТС</span>
+                        Регистрация любого <br>переоборудования автомобиля в <br><span class="text_marker">ГИБДД</span>, получение <span class="text_marker">СБКТС</span>, <span class="text_marker">ЭПТС</span>
                     </h1>
                     <p class="sub_title">Официальное оформление любых <br>изменений в кратчайший срок</p>
                     <p class="sub_h"><strong>Оставьте заявку и получите:</strong></p>
                     <div class="text_styles">
                         <ul>
                             <li>Расчет стоимости</li>
-                            <li>Консультацию эксперта: какие документы нужны</li>
+                            <li>Консультацию эксперта</li>
                             <li>Запись авто на испытания в лабораторию</li>
                         </ul>
                         <a href="#showModal" class="button">Оставить заявку</a>
@@ -67,9 +67,9 @@
         <h2 class="section_h2">КАК ОФОРМИТЬ <span class="text_marker">СБКТС</span> за <span class="text_marker">5</span> простых шагов </h2>
         <div class="steps_wrapper">
             <x-step index="1" title="Оставьте заявку или свяжитесь с нами удобным способом"></x-step>
-            <x-step index="2" title="Оценка возможность установки и регистрации Вашего переоборудования"></x-step>
-            <x-step index="3" title="Рассчитываем стоимости услуги в индивидуальном порядке"></x-step>
-            <x-step index="4" title="Подготовка и оформление необходимых документов"></x-step>
+            <x-step index="2" title="Мы оценваем возможность установки и регистрации Вашего переоборудования"></x-step>
+            <x-step index="3" title="Рассчитываем стоимость услуг в индивидуальном порядке"></x-step>
+            <x-step index="4" title="Подготавливаем и оформляем необходимые документы"></x-step>
             <x-step index="5" title="Получение документа - <span class='text_marker'>СБКТС</span>"></x-step>
         </div>
     </div>
