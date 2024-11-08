@@ -23,6 +23,7 @@ global_app.mount("#global_app");
 new SideMenu('#main_side_menue', '.show_menue_button');
 
 const anchors = document.querySelectorAll('a[href*="#"].yakor')
+// const anchors = document.querySelectorAll('nav a[href*="#"]')
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
